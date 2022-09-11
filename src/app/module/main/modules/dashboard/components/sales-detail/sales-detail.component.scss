@@ -1,0 +1,66 @@
+.filter {
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    min-width: 170px;
+}
+
+.dropdown-toggle {
+    background: inherit;
+    outline: none;
+    border: 0;
+}
+
+a.btn.btn-sm.btn-light.dropdown-toggle:hover {
+    background: none;
+}
+
+.ref-metrics {
+    margin-right: 15px;
+    color: #485572;
+}
+
+.date-range {
+    color: rgba(134, 134, 134, 1);
+}
+
+hr {
+    border: 1px solid #FFF2EE;
+}
+
+.card {
+    border: 1px solid #FFF2EE;
+}
+
+.vl {
+    border-left: 1px solid #FFF2EE;
+    height: 430px;
+  }
+
+.success {
+    color: #2FCA72;
+}
+
+.revenue {
+    font-size: 40px;
+}
+
+.revenue-analysis {
+    position: relative;
+    right: -145px;
+    top: 20px;
+}
+
+.profit-val .amt {
+    font-size: 26px;
+    color: #811434;
+}
+
+.profit-qty .qty {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.text-muted {
+    color: #8C8CA1;
+}

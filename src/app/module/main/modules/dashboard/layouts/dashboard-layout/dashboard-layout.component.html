@@ -1,0 +1,19 @@
+<div class="dashboard-container">
+    <div class="header row">
+        <div class="header-title col">
+            Overview
+        </div>
+        <div class="add-new-wine col-3">
+            <button class="btn btn-danger btn-add-wine float-right">
+                <i class="fa fa-plus-circle icon"></i>
+                <span>ADD NEW WINE</span>
+            </button>
+        </div>
+    </div>
+    <div class="overview-cards-section mt-4">
+        <app-overview-card [statusCards]="statusCards"></app-overview-card>
+    </div>
+    <div class="sales-detail mt-4">
+        <app-sales-detail></app-sales-detail>
+    </div>
+</div>

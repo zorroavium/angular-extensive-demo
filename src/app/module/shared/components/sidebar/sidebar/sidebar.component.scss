@@ -1,0 +1,26 @@
+li {
+    list-style: none;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+ul {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+ul:hover, .active {
+    background-color: #F7F1F3;
+    border-right: 2px solid #811434;
+    color: #811434 !important;
+}
+
+.sidebar-body {
+    border-right: 1px solid #ECF1F4;
+    height: -webkit-fill-available;
+}
+
+.menu-text {
+    font-size: 14px;
+    color: #485572;
+}

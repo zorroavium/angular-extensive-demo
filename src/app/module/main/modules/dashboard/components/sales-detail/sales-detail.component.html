@@ -1,0 +1,90 @@
+<div class="row">
+    <div class="header col-12 fs-14 fw-600 mb-4">Sales detail</div>
+    <div class="details col">
+        <div class="card">
+            <div class="card-body">
+                <div class="topbar row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-12 fs-14 fw-600">
+                                Total Sales Overview
+                            </div>
+                            <div class="col-12 fs-11 date-range">
+                                7-13 Aug, 2020
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col row align-center">
+                        <div class="col-3 ml-auto p-0 fs-12 ref-metrics">
+                            <i class="fa fa-refresh icon"></i>
+                            <span>Refresh Metrics</span>
+                        </div>
+                        <div class="col-4 fs-14 filter">
+                            <span class="text-muted fw-600">Filter by |</span>
+                            <span class="fw-600">
+                                <div class="dropdown">
+                                    <a class="btn btn-sm btn-light dropdown-toggle fw-600" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      This Week
+                                    </a>
+                                  
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </div>
+                            </span>
+                             
+                        </div>
+                    </div>
+                </div>
+                <div class="divider">
+                    <hr>
+                </div>
+                <div class="chartView row">
+                    <div class="col-9 row chart-container">
+                        <div class="row row-cols-2 mb-4">
+                            <div class="col revenue">
+                                $74,729.00
+                            </div>
+                            <div class="col-4 fs-12 revenue-analysis">
+                                <i class="fa fa-line-chart success icon" aria-hidden="true"></i>
+                                <span>Highest revenue since 2 weeks ago</span>
+                            </div>
+                            <div class="col success fs-14">
+                                <i class="fa fa-line-chart icon" aria-hidden="true"></i>
+                                <span class="">+21% from last week</span>
+                            </div>
+                        </div>
+                        <div class="row chart mb-4">
+                            <div style="display: block; width:100%">
+                                <canvas id="canvas" height="120">{{ chart }}</canvas>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col row total-profit">
+                        <div class="col-1 vl"></div>
+                        <div class="col profit">
+                            <div class="header text-muted fw-600 fs-12 mb-2">Total Profit</div>
+                            <div class="profit-val pb-2">
+                                <div class="amt fw-600">
+                                    $12,545.00
+                                </div>
+                                <div class="success fs-14">
+                                    <i class="fa fa-line-chart icon" aria-hidden="true"></i>
+                                    <span>+23% from last week</span>
+                                </div>
+                            </div>
+                            <div class="profit-qty mt-4">
+                                <div class="text-muted fw-600 fs-12">Total Products Sold</div>
+                                <div class="qty">329</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <app-inventory-grid></app-inventory-grid>
+</div>

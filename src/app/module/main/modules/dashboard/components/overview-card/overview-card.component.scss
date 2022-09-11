@@ -1,0 +1,27 @@
+.col.name {
+    font-size: 14px;
+    padding-right: 0;
+    color: #8C8CA1;
+}
+
+.col.value {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: -6px;
+}
+
+.col.icon {
+    width: 20px;
+    position: relative;
+    right: -82px;
+    top: -5px;
+    font-size: 18px;
+}
+
+.card {
+    width: 255px;
+    height: 85px;
+    border: 0;
+    box-shadow: 0px -2px 0px transparent, 0px 2px 11px rgb(0 0 0 / 6%);
+}

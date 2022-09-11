@@ -1,0 +1,148 @@
+@import 'ag-grid-community/styles/ag-grid.css'; // Core grid CSS, always needed
+// @import 'ag-grid-community/styles/ag-theme-alpine.css'; // Optional theme CSS
+@import 'ag-grid-community/styles/ag-theme-material.css'; // Optional theme CSS
+
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.icon {
+  margin-right: 5px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.bg-wine-dark {
+  background-color: #811434;
+}
+
+.text-wine-light {
+  color: #FBE1D0;
+}
+
+.active {
+  background-color: #F7F1F3;
+}
+
+.btn-danger {
+  --bs-btn-bg:#EF4859;
+}
+
+* {
+  font-family: 'Open Sans';
+} 
+
+.float-right {
+  float: right;
+}
+
+.fs-11 {
+  font-size: 11px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 12px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.card.warning {
+  border-top: 2px solid #FFAA2C !important;
+}
+.card.primary {
+  border-top: 2px solid #2C67FF !important;
+}
+.card.success {
+  border-top: 2px solid #00CF3A !important;
+}
+.card.danger {
+  border-top: 2px solid #FF1C1C !important;
+}
+
+.icon .warning {
+  color: #FFAA2C;
+}
+.icon .primary {
+  color: #2C67FF;
+}
+.icon .success {
+  color: #00CF3A;
+}
+.icon .danger {
+  color: #FF1C1C;
+}
+
+.color-detail-preimary {
+  color: #485572;
+}
+
+.color-detail-danger {
+  color: #811434;
+}
+
+.bg-detail-preimary {
+  background: #F4F7FF;
+  width: 55px;
+}
+
+.bg-detail-danger {
+  background: #FFF2EE;
+  width: 65px;
+}
+
+.inventory { 
+
+  margin-left: 10px;
+
+  hr {
+    border: 1px solid #FFF2EE;
+  }
+
+a {
+    color: #FF1C1C;
+  }
+
+.danger, .icon .fa {
+    margin-right: 10px;
+  }
+
+.disabled {
+    opacity: 0.4;
+  }
+
+.dot {
+    position: relative;
+    top: -3px;
+  }
+
+  .vintage {
+    position: relative;
+    top: 17px;
+    left: -17px;
+  }
+ }

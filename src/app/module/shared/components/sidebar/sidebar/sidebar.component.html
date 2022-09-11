@@ -1,0 +1,12 @@
+<div class="sidebar-body">
+    <ul class="menu-list menu-text" [ngClass]="{'active': menu.isActive}" *ngFor="let menu of menuItems">
+        <li class="clickable" (click)="onMenuClick(menu)">
+            <span class="icon">
+                <i class="{{menu?.icon}}" aria-hidden="true"></i>
+            </span>
+            <span class="menu-name">
+                {{menu.title}}
+            </span>
+        </li>
+    </ul>
+</div>
